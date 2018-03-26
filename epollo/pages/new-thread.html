@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--Copyright 2018 © Martin Kondor-->
+<html lang="en">
+	<head>
+		<!--
+			Colors to use: http://paletton.com/#uid=53E0u0knpxQdyNfiZExsOuQuQo1
+	  -->
+		<title>epollo | New Thread</title>
+		<link href="https://fonts.googleapis.com/css?family=Courgette|Roboto" rel="stylesheet">
+		<!--Fonts above-->
+		<meta charset="UTF-8">
+		<link rel="icon" href="epollo-icon.png">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+		<link href="../css/subpage-style.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="../javascript/new-thread.js"></script>
+		<script src="../javascript/header-script.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="header" class="row">
+				<!--Comes from the script.js-->
+			</div>
+		 <div class="well"> <!--Well is for the page card design-->
+			<div class="row text-center info-text">
+				<div class="col-xs-12">
+					<p class="bigger-sub-titles">Write a new thread for:</p>
+          <p class="sub-titles">Parent title</p>
+					<hr>
+				</div>
+			</div>
+			<div class="row info-text text-left">
+				<div class="col-xs-3">
+					<p class="sub-titles labels">Thread title: </p>
+				</div>
+				<div class="col-xs-9">
+					<input id="thread-title" class="form-control" type="text" placeholder="Give it a short and apposite name.">
+				</div>
+			</div>
+			<div class="row info-text">
+				<div class="col-xs-12">
+					<textarea id="thread-text" class="form-control" rows="10"
+					placeholder="Your original thread goes here... If you want threads from others it's recommended to write a shorter instead of a long story."></textarea>
+				</div>
+			</div>
+			<div class="row text-center info-text">
+				<div class="col-xs-12">
+					<button id="submit-thread" class="btn btn-info inverted-button" type="submit">Submit thread</button>
+				</div>
+			</div>
+		 </div>
+		</div>
+	</body>
+</html>

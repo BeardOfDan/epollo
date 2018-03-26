@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Copyright 2018 © Martin Kondor-->
+<html lang="en">
+	<head>
+		<!--
+			Colors to use: http://paletton.com/#uid=53E0u0knpxQdyNfiZExsOuQuQo1
+	  -->
+		<title>epollo | Sign up</title>
+		<link href="https://fonts.googleapis.com/css?family=Courgette|Roboto" rel="stylesheet">
+		<!--Fonts above-->
+		<meta charset="UTF-8">
+		<link rel="icon" href="epollo-icon.png">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+		<link href="../css/subpage-style.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="../javascript/sign-in.js"></script>
+		<script src="../javascript/header-script.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="header" class="row">
+				<!--Comes from the script.js-->
+			</div>
+			<!-- -10 margin-bottom because of the signin below this well-->
+		 <div style="margin-bottom: -10px;" class="well"> <!--Well is for the page card design-->
+			<div class="row text-center info-text">
+				<div class="col-xs-12">
+					<p class="bigger-sub-titles">Sign Up</p>
+					<hr>
+				</div>
+			</div>
+			<div class="row info-text">
+				<div class="col-xs-4 text-right">
+					<p class="fields labels">First & Last name:</p>
+					<p class="fields labels">Real e-mail:</p>
+					<p class="fields labels">Username:</p>
+					<p class="fields labels">Password:</p>
+				</div>
+				<div class="col-xs-8">
+					<input id="full-name-field" class="form-control fields" type="text" placeholder="Full name">
+					<input id="email-field" class="form-control fields" type="text" placeholder="E-mail">
+					<input id="username-field" class="form-control fields" type="text" placeholder="Username">
+					<input id="password-field" class="form-control fields" type="password" placeholder="Password">
+				</div>
+			</div>
+			<div class="row text-center info-text">
+				<div class="col-xs-12">
+					<input id="terms-button" type="checkbox"> I accept the <a href="#">terms and conditions</a></input>
+				</div>
+			</div>
+			<div class="row text-center info-text">
+				<div class="col-xs-12">
+					<button id="submit-registration" class="btn btn-info inverted-button" type="submit">Sign Up</button>
+				</div>
+			</div>
+		 </div>
+		 <!--Sign in section-->
+		 <div class="well"> <!--Well is for the page card design-->
+			<div class="row text-center info-text">
+				<div class="col-xs-12">
+					<p class="bigger-sub-titles">Sign In</p>
+					<hr>
+				</div>
+			</div>
+			<div class="row info-text">
+				<div class="col-xs-4 text-right">
+					<p class="fields labels">Username:</p>
+					<p class="fields labels">Password:</p>
+				</div>
+				<div class="col-xs-8">
+					<input id="sign-in-username" class="form-control fields" type="text" placeholder="Your username">
+					<input id="sign-in-password" class="form-control fields" type="password" placeholder="Password for the username">
+				</div>
+			</div>
+			<div class="row text-center info-text">
+				<div class="col-xs-12">
+					<button id="submit-sign-in" class="btn btn-info inverted-button" type="submit">Sign In</button>
+				</div>
+			</div>
+		 </div>
+		</div>
+	</body>
+</html>

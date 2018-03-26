@@ -1,0 +1,27 @@
+{
+  "name": "epollo",
+  "version": "1.0.0",
+  "description": "<p style=\"font-size: 25px;\">What is it?</p>\r <p>A free to use story sharing website where You can</p>\r <ul class=\"text-left\">\r \t<li>Write your own stories</li>\r \t<li>Fork others stories and continue them</li>\r \t<li>Enter stories by generating different threads related to the original storyline</li>\r \t<li>Play different writing challenges</li>\r \t<li>Create different writing challenges</li>\r \t<li>Chat with others</li>\r \t<li>Have fun</li>\r </ul>\r <hr>\r <p style=\"font-size: 25px;\">How it works?</p>\r <p>Simply. For uploading stories you must register first <a href=\"html/sign-in/sign-in.html\">here</a> and then</p>\r \t\t\t\t\t<p>\r \t\t\t\t\t\tYou can just read the stories even without registration.\r \t\t\t\t\t\t<br><br>\r \t\t\t\t\t\tSearch for stories or users(authors),\r \t\t\t\t\t\tand fork those stories to your account for editing it.\r \t\t\t\t\t\tAlso you can add a new storyline to others stories. After\r \t\t\t\t\t\tthat you have to wait for the author's approve for\r \t\t\t\t\t\tthe new line, and only if he/she approved the new line\r \t\t\t\t\t\twill be added and published in the original authors site.\r \t\t\t\t\t\t<br><br>\r \t\t\t\t\t\t<strong style=\"font-size: 20px;\">Important please read this!</strong>\r \t\t\t\t\t\t<br>\r \t\t\t\t\t\tIt's the time to talk about the license. Basically all stories\r \t\t\t\t\t\t<strong>must be original and only yours</strong>. Also\r \t\t\t\t\t\t<strong>we do not take any responsibility for the stories\r \t\t\t\t\t\ton this site</strong> which means only you are accountable\r \t\t\t\t\t\tfor your own actions on this site. For sign in you have to accept\r \t\t\t\t\t\tthis agreement.\r \t\t\t\t\t\t<br><br>\r \t\t\t\t\t\tBut anyway we will censorship our stories so don't worry.\r \t\t\t\t\t</p>\r <hr>\r <p style=\"font-size: 25px;\">Getting started</p>\r <p>First <a href=\"html/sign-in/sign-in.html\">sign in</a></p>\r <p>And then have fun! :)</p>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-epollo/epollo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-epollo/epollo/issues"
+  },
+  "homepage": "https://github.com/the-epollo/epollo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "email-validator": "^1.1.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.11",
+    "password-validator": "^4.0.0"
+  }
+}
