@@ -2,7 +2,7 @@ var express = require('express');
 var session = require('express-session');
 var path = require('path');
 var bodyParser = require('body-parser');
-var dbKeys = require('./keys');
+var dbKeys = require('./node_modules/keys');
 var EventEmitter = require('events').EventEmitter;
 var app = express();
 
