@@ -13,11 +13,17 @@
       </ul>
     </div>
   </div>
-  <div class="col-xs-6">
+  <div class="col-xs-5">
     <input id="search-field" class="form-control header-inputs" type="text" placeholder="Search on the page..."></input>
   </div>
+<!--
   <div class="col-xs-2">
     <a id="sign-up" href="sign"><button class="btn btn-info inverted-button header-inputs">Sign Up/In</button></a>
+  </div>
+  -->
+  <div class="col-xs-3">
+    <a style="display:none;" id="log-in-with-google" href="/auth/google"><button class="btn btn-info inverted-button header-inputs">Log In With Google</button></a>
+    <a style="display:none;" id="log-out" href="/auth/logout"><button class="btn btn-danger inverted-button header-inputs">Log Out</button></a>
   </div>
   <div class="col-xs-1">
     <a id="new-story" href="newstory"><button class="btn btn-default header-inputs">New Story</button></a>
