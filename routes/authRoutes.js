@@ -11,13 +11,13 @@ module.exports = (app) => {
   app.get('/auth/google/callback',
     passport.authenticate('google'), // Utilize Google's Authenication Code
     (req, res, next) => {
-      res.redirect('/'); // This is the path that the newly logged in user is sent to
+      res.redirect('/home'); // This is the path that the newly logged in user is sent to
     }
   );
 
   app.get('/auth/logout', (req, res, next) => {
     req.logout();
-    res.redirect('/');
+    res.redirect('/home');
   });
 
   app.get('/auth/currentUser', (req, res, next) => {
